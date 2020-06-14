@@ -18,6 +18,7 @@ public class main {
 
         //Conexio a la base de dades
         Class.forName("org.sqlite.JDBC");
+        //per provar canviar ruta el arxiu sql esta dins la carpeta base dins aquest mateix projecte
         conn = DriverManager.getConnection("jdbc:sqlite:D:/Escritorio/JOSE CASA/Estudios/CFGS/base de datos/SQLite_JRodriguez/base/Agenda_JRodriguez.sqlite");
 
         //repeticio bucle
